@@ -1,0 +1,6 @@
+# Nomen
+
+Initial repo for all nomen-net source code. Active working repo for the social networking aspects of nomen as well as the store-front....
+will update README with how to use once substantial code is implemented...
+until then
+ONWARD & UPWARD
