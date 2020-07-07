@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}   
+body{
+    padding: 3px 3px 3px 5px;
+    border: 10px double darkolivegreen;
+    border-style: groove;
+    cursor: pointer;
+    font-family: monospace;
+}
+/* Options  */
+.box1 li a {
+    color: beige;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;  
+}
+/* Navbar */
+
+   .cart{
+    background-color:#030803;
+   }
+    .shopping-cart{
+       color: white;
+   }
+
+
+.nav{
+    background: #030803;
+    height: 85px;
+    width: 100%;
+} 
+.logo{
+    color: wheat;
+    font-size: 35px;
+    line-height: 150%;
+    padding: 0 100px;
+    font-weight: bold;
+    cursor: auto;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 20%;
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 80%;
+     margin: 0 5px;
+}
+
+.nav ul li  {
+    color: wheat;
+}
+ li:hover {
+    text-shadow: 2px 2px 4px olive;
+}
+/* Slogan */
+.slogan{
+    color: black;
+    background-color: tan;
+    text-align: center;
+    text-shadow: 4px 4px 6px tan;
+    cursor: auto;
+}
+/* Main content */
+ .main{
+     min-height:100vh;
+     min-width: 50vw;
+     background-image: url(black.jpg);
+     overflow: hidden;
+     opacity:90%;
+     cursor: auto;
+ }
+
+ 
+ 
+ #shBTN {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 250px;
+    box-sizing: border-box;
+    border: 1px 2px 4px black;
+    border-radius: 40px;
+    
+ }
+
+ #shBTN a{
+     color: wheat;
+ }
+ #shBTN a:hover{
+     text-shadow: 4px 4px 8px seagreen;
+ }
+ #shopBTN{
+     padding: 10px 15px;
+     margin: 10px 20px;
+     border: 1px solid black;
+     border-radius: 50px;
+     background-color: black;
+ }
+
+ .searchbar{
+     display: flex;
+     justify-content: center;
+     margin-top:170px;
+
+ }
+
+ .search{
+     margin: 10px 20px;
+     padding: 10px 20px;
+     border-radius: 20%;
+     background-color: black;
+     color: tan;
+ }
+
+ .sub{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    background-color: #030803;
+    color: tan;
+}
+
+    
+
+    
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
