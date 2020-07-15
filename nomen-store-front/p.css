@@ -1,0 +1,145 @@
+*{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+body{
+background-color:  #f2f2f2
+}
+.motd{
+  width: auto;
+  padding: 10px 10px 10px 10px;
+}
+.motd-banner{
+  width: auto;
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.motd-banner:hover{
+  filter: invert(1);
+}
+.l-header{
+  float: left;
+  display: flex;
+}
+.l-header li{
+  padding-right: 25px;
+}
+.l-header li a{
+  padding-right:75px;
+}
+
+.r-header{
+  float: right;
+  display: flex;
+  margin-left: 16.66%;
+
+}
+.r-header li{
+  padding-right:30px;
+}
+.r-header input{
+  padding-left: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.r-header input {
+  text-align: left;
+}
+.c-header{
+  background-color: white;
+  width:auto;
+  vertical-align: middle;
+  margin-left: 33.33%;
+}
+nav{
+  width: auto;
+  background-color: ;
+  margin-bottom: 10px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+nav ul li a{ /* THE TOP LVL LINKS (SHOP, BLOG, ACCOUNT, BAG, SEARCHBAR)*/
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  font-weight: bolder;
+  font-size: 18px;
+}
+.r-header li a:hover{
+  text-decoration: none;
+  font-weight: lighter;
+}
+nav ul ul{/* THE LOW LVL LINKS (TOPS, BOTTOMS, ForFoundersOnly. ETC... ) */
+  text-decoration: none;
+  position: absolute;
+  display: block;
+  visibility: hidden;
+  transition: top .3s;
+  margin-top: 5px;
+  margin-left: -40px;
+  text-align: left;
+  font-weight: bolder;
+}
+nav ul ul li{
+  color:black;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  padding-bottom: 1px;
+  font-weight: bold;
+}
+nav ul ul li a:hover{
+  text-decoration: none;
+  color: gold;
+  font-weight: 999;
+}
+nav ul ul li a{
+  font-weight: lighter;
+}
+nav ul li:hover > ul{
+  visibility: visible;
+}
+.main-post{
+  width: 1650px;
+  height: auto;
+  background-color: white;
+  margin-top: 70px;
+  margin: auto;
+}
+.main-post p img{
+    vertical-align: middle;
+}
+.main-post span{
+  margin-left: 25px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: bolder;
+}
+.main-post span.side{
+  margin-left: 1450px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-top: -999px;
+  font-weight: bolder;
+}
+.spacer{
+  height: 50px;
+  width: 1400px;
+}
+.foot p{
+  font-size: 12px;
+}
+.foot a{
+  margin-right: 100px;
+  margin-left: 5px;
+  float: right;
+  padding-left: 20px;
+  font-size: 20px;
+  color: black;
+}
