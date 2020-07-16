@@ -122,10 +122,10 @@ nav ul li:hover > ul{
   font-weight: bolder;
 }
 .main-post span.side{
-  margin-left: 1450px;
+  margin-left: 1425px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  margin-top: -999px;
+  margin-top: -150px;
   font-weight: bolder;
 }
 .spacer{
